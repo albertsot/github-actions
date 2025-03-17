@@ -14,7 +14,11 @@ public class MapExample {
         System.out.println("Resultado esperado: "+fraseResultados);
 
     
-System.out.println("Hola, este es un mensaje. Nuevo");
+        System.out.println("Se esta subiendo nuevamente");
+        List<Integer> numeros=List.of(2,3,6,8);
+        for(Integer n: numeros){
+            System.out.println(n);
+        }
 
     }
 }
