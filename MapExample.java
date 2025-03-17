@@ -14,7 +14,7 @@ public class MapExample {
         System.out.println("Resultado esperado: "+fraseResultados);
 
     
-System.out.println("Hola, este es un mensaje");
+System.out.println("Hola, este es un mensaje. Nuevo");
 
     }
 }
