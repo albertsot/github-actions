@@ -12,9 +12,8 @@ public class MapExample {
                 .distinct()
                 .toList();
         System.out.println("Resultado esperado: "+fraseResultados);
+     System.out.println("Hola desde otra rama: ");
 
-    
-System.out.println("Hola, este es un mensaje. Nuevo");
 
     }
 }
