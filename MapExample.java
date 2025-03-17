@@ -15,10 +15,11 @@ public class MapExample {
 
     
         System.out.println("Se esta subiendo nuevamente");
-        List<Integer> numeros=List.of(2,3,6,8);
+        List<Integer> numeros=List.of(2,3,6,8,100,15,35,99);
         for(Integer n: numeros){
             System.out.println(n);
         }
+        System.out.println("Se esta subiendo finalmente");
 
     }
 }
