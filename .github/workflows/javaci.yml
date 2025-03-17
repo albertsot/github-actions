@@ -18,7 +18,7 @@ jobs:
     - name: checkout código fuente
       uses: actions/checkout@v4
       with:
-        ref: aprendiendo-github-actions
+         ref: ${{ github.ref_name }}
     - name: Listar archivos (debug)
       run: ls -R
       
