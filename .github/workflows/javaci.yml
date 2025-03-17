@@ -17,6 +17,11 @@ jobs:
     steps:
     - name: checkout código fuente
       uses: actions/checkout@v4
+      with:
+        ref: aprendiendo-github-actions
+    - name: Listar archivos (debug)
+      run: ls -R
+      
     - name: Set up JDK 17
       uses: actions/setup-java@v4
       with:
